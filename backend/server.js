@@ -10,6 +10,10 @@ app.get('/api/products', (req, res) => {
   res.send(data.products);
 });
 
+app.get('/api/products/1', (req, res) => {
+  res.send('hello');
+});
+
 const port = process.env.PORT || 5050;
 
 app.listen(port, () => {
