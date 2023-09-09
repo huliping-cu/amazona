@@ -33,3 +33,7 @@
    2. npm install axios
    3. use state hook
    4. use effect hook
+9. Manage State By Reducer Hook
+   1. define reducer
+   2. update fetch data
+   3. get state from usReducer
