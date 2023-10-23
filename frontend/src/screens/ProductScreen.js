@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { useReducer } from 'react';
 import { useEffect } from 'react';
 import axios from 'axios';
@@ -31,6 +31,7 @@ const reducer = (state, action) => {
 
 //get the slug from the url and show it in the screen, use a hook
 function ProductScreen() {
+  const navigate = useNavigate();
   const params = useParams();
   const { slug } = params;
   console.log('params is: ', { slug });
@@ -68,6 +69,7 @@ function ProductScreen() {
       type: 'CART_ADD_ITEM',
       payload: { ...product, quantity },
     });
+    navigate('/cart');
   };
   return loading ? (
     <LoadingBox />

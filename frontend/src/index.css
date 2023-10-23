@@ -46,3 +46,7 @@ main {
   width: 400px;
   height: 500px;
 }
+
+.img-thumbnail {
+  height: 80px;
+}
