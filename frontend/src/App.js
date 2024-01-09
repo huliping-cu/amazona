@@ -8,7 +8,7 @@ import Badge from 'react-bootstrap/Badge';
 import Container from 'react-bootstrap/Container';
 import { LinkContainer } from 'react-router-bootstrap';
 import { useContext } from 'react';
-import { Store } from './screens/Store';
+import { Store } from './Store';
 import CartScreen from './screens/CartScreen';
 
 function App() {

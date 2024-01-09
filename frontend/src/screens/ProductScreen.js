@@ -14,7 +14,7 @@ import MessageBox from '../components/MessageBox';
 import LoadingBox from '../components/LoadingBox';
 import { getError } from '../utils';
 import { useContext } from 'react';
-import { Store } from './Store';
+import { Store } from '../Store';
 
 const reducer = (state, action) => {
   switch (action.type) {
