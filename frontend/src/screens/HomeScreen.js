@@ -14,7 +14,7 @@ const reducer = (state, action) => {
   switch (action.type) {
     case 'FETCH_REQUEST':
       return { ...state, loading: true };
-    case 'FETCH_SUCCESS':
+    case 'FETCH_SUCCESS': // sets the products property of the state to action.payload
       return { ...state, products: action.payload, loading: false };
     case 'FETCH_FAIL':
       return { ...state, loading: false, error: action.payload };
@@ -28,7 +28,7 @@ function HomeScreen() {
     loading: true,
     error: '',
     products: [],
-  });
+  }); // the object after reducer is state's initial state
 
   // const [products, setProducts] = useState([]);
   useEffect(() => {
