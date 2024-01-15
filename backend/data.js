@@ -3,7 +3,7 @@ const data = {
   products: [
     //each product is an object
     {
-      _id: '1',
+      // _id: '1',
       name: 'Nike Slim Shirt',
       slug: 'nike-slim-shirt',
       gender: 'woman',
@@ -18,7 +18,7 @@ const data = {
       description: 'high quality shirt',
     },
     {
-      _id: '2',
+      // _id: '2',
       name: 'Adidas Fit Shirt',
       slug: 'adidas-fit-shirt',
       gender: 'woman',
@@ -33,7 +33,7 @@ const data = {
       description: 'high quality product',
     },
     {
-      _id: '3',
+      // _id: '3',
       name: 'Nike Slim Pants',
       slug: 'nike-slim-pants',
       gender: 'woman',
@@ -48,7 +48,7 @@ const data = {
       description: 'high quality product',
     },
     {
-      _id: '4',
+      // _id: '4',
       name: 'Adidas Fit Pants',
       slug: 'adidas-fit-pants',
       gender: 'woman',
